@@ -11,7 +11,7 @@ namespace Tyuiu.AntonovNS.Sprint4.Task5.V19.Lib
             {
                 for (int j = 0; j <= 5 - 1; j++)
                 {
-                    if (matrix[i, j] >= 0)
+                    if (matrix[i, j] > 0)
                     {
                         res += 1;
                     }
